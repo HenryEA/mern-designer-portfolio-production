@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function Landing() {
   return (
-    <div className="h-screen w-full bg-gradient-to-b from-blue-800 to bg-purple-900 flex flex-col ">
+    <div className="h-screen w-full bg-gradient-to-b from-blue-800 to bg-purple-900 flex flex-col overflow-hidden ">
       <nav className="top-0 mt-0 flex justify-between items-center w-full h-20  bg-gradient-to-b from-black to-gray-900 text-gray-200 fixed">
         <div>
           <h1 className="text-5xl font-signature  ml-2">Henry Anene</h1>
